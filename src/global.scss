@@ -1,1 +1,14 @@
 $mainColor : #15023a;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
+
+// @media only screen and (max-width: 668px){
+//     flex-direction: column;
+//   align-items: center;
+// }
